@@ -1,0 +1,49 @@
+/* src/components/FlightStatus.css */
+.flight-status-section {
+    padding: 2rem;
+  }
+  
+  .flight-status-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 1rem;
+  }
+  
+  .flight-status {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .flight-status.on-time {
+    background-color: #e7f3e8; /* Light green */
+  }
+  
+  .flight-status.delayed {
+    background-color: #fff3cd; /* Light yellow */
+  }
+  
+  .flight-status.cancelled {
+    background-color: #fce4e4; /* Light red */
+  }
+  
+  .flight-status-heading {
+    font-size: 32px;   /* Adjust the font size to your preference */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  /* Choose your desired font family */
+  }
+
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .carousel-controls button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

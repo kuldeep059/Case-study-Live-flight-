@@ -1,0 +1,111 @@
+/* src/components/Hero.css */
+.hero {
+    position: relative;
+    height: 600px; /* Ensure container height for the image */
+    overflow: hidden; /* Hide overflowing content, like overly long form fields */
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 110%;
+    object-fit: cover; /* Cover the container, maintaining aspect ratio */
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 10%; /* Adjust this value to control the left offset */
+    transform: translateY(-50%); /* Only center vertically */
+    padding: 2rem;
+    background-color: rgba(231, 222, 222, 0.8); 
+    width: 40%;
+    max-width: 400px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0.9, 0.9, 0.9, 0.9); 
+  }
+  
+  .hero-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-form input,
+  .hero-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .hero-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+  }
+  
+  .hero-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add hover transition */
+  }
+  
+  .hero-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  .hero-form-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: red; /* Set the text color to red */
+    animation: pulse 2s infinite; /* Add the animation */
+  }
+  
+  /* Keyframes for the pulse animation */
+  @keyframes pulse {
+    0% {
+      transform: scale(1); /* Start at normal size */
+    }
+    50% {
+      transform: scale(1.1); /* Expand to 110% */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+    }
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    z-index: 1; /* Ensure popup is above other elements */
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative; /* For positioning the close button */
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red; /* Or any other color you prefer for errors */
+  }

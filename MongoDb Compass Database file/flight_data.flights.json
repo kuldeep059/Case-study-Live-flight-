@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc06923914"
+  },
+  "flightNumber": "AA123",
+  "status": "Delayed",
+  "gate": "C14",
+  "departureAirport": "DEL",
+  "arrivalAirport": "JFK",
+  "departureTime": "2024-07-30T10:30:00Z"
+},
+{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc06923915"
+  },
+  "flightNumber": "BA234",
+  "status": "Delayed",
+  "gate": "D5",
+  "departureAirport": "DEL",
+  "arrivalAirport": "LHR",
+  "departureTime": "2024-07-30T11:45:00Z"
+},
+{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc06923916"
+  },
+  "flightNumber": "SQ345",
+  "status": "Boarding",
+  "gate": "A10",
+  "departureAirport": "DEL",
+  "arrivalAirport": "SIN",
+  "departureTime": "2024-07-30T13:15:00Z"
+},
+{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc06923917"
+  },
+  "flightNumber": "EK456",
+  "status": "Cancelled",
+  "gate": "N/A",
+  "departureAirport": "DEL",
+  "arrivalAirport": "DXB",
+  "departureTime": "2024-07-30T14:00:00Z"
+},
+{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc06923918"
+  },
+  "flightNumber": "QF567",
+  "status": "On Time",
+  "gate": "B7",
+  "departureAirport": "DEL",
+  "arrivalAirport": "SYD",
+  "departureTime": "2024-07-30T15:20:00Z"
+},
+{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc06923919"
+  },
+  "flightNumber": "LH678",
+  "status": "Delayed",
+  "gate": "F11",
+  "departureAirport": "DEL",
+  "arrivalAirport": "FRA",
+  "departureTime": "2024-07-30T16:35:00Z"
+},
+{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc0692391a"
+  },
+  "flightNumber": "AF789",
+  "status": "On Time",
+  "gate": "E2",
+  "departureAirport": "DEL",
+  "arrivalAirport": "CDG",
+  "departureTime": "2024-07-30T17:50:00Z"
+},
+{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc0692391b"
+  },
+  "flightNumber": "TK890",
+  "status": "Check-In",
+  "gate": "A15",
+  "departureAirport": "DEL",
+  "arrivalAirport": "IST",
+  "departureTime": "2024-07-30T19:05:00Z"
+},
+{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc0692391c"
+  },
+  "flightNumber": "AI901",
+  "status": "On Time",
+  "gate": "C22",
+  "departureAirport": "DEL",
+  "arrivalAirport": "BOM",
+  "departureTime": "2024-07-30T20:20:00Z"
+},
+{
+  "_id": {
+    "$oid": "66a8ace3dffca3dc0692391d"
+  },
+  "flightNumber": "JL012",
+  "status": "Delayed",
+  "gate": "G4",
+  "departureAirport": "DEL",
+  "arrivalAirport": "NRT",
+  "departureTime": "2024-07-30T21:35:00Z"
+}]

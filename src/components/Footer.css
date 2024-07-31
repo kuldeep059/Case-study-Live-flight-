@@ -1,0 +1,56 @@
+/* src/components/Footer.css */
+
+/* Basic Footer Styling */
+.footer {
+    background-color: #ffffff;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: space-around; 
+    width: 100%;
+    margin-top: 100px; 
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-left img {
+    max-height: 70px;
+    margin-right: 0.1rem;
+  }
+  
+  .footer-column {
+    /* Style each column */
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem; 
+    color: #333;       
+  }
+  
+  .footer-column a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+  }
+  
+  .footer-column a:hover {
+    color: #007bff; 
+    text-decoration: underline; 
+  }
+  
+  /* Sticky Footer Styles */
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .content-wrapper { /* Wrap your main content with this class in App.js */
+    flex: 1;
+  }
+  
